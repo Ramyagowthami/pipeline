@@ -9,7 +9,7 @@ pipeline {
         }
         stage('codecompile'){
             steps{
-                echo 'convert high level to machine level'
+                echo 'convert high level to machine level..'
                 sh "mvn compile"
             }
         }
